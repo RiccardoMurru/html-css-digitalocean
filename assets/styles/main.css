@@ -26,7 +26,6 @@ body {
 
 /* Header */
 /* Navbar */
-
 #navbar {
   background: #fff;
   padding-top: 20px;
@@ -46,5 +45,70 @@ body {
 
 #navbar .btn {
   border-color: #3c83ff;
+  color: #3c83ff;
+}
+
+/* Main */
+/* Jumbotron */
+#jtron {
+  background-image: url('../img/bg-banner-home.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#jtron .jumbotron {
+  background: none;
+  color: #fff;
+  padding: 48px 0;
+}
+
+#jtron .jumbotron h1 {
+  font-size: 50px;
+}
+
+#jtron .jumbotron p {
+  font-size: 18px;
+  opacity: .8;
+}
+
+#jtron .form-box {
+  background: #fff;
+  border-radius: 5px;
+  padding: 15px 10px;
+  margin-top: 40px;
+}
+
+#jtron .form-box h2 {
+  font-size: 25px;
+}
+
+#jtron .form-box .no-mg-top {
+  margin-top: 0;
+  color: #3c83ff;
+}
+
+#jtron .form-box .btn-primary {
+  background: #579aff;
+  border-color: #579aff;
+  color: #fff;
+}
+
+#jtron .btn-google img {
+  height: 20px;
+}
+
+#jtron .btn-google a {
+  text-decoration: none;
+  padding-right: 20px;
+  color: #333;
+}
+
+#jtron .form-box span {
+  font-size: 12px;
+  padding-top: 10px;
+  display: inline-block;
+}
+
+#jtron .form-box span a {
   color: #3c83ff;
 }
