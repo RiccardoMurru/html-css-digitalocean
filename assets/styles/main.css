@@ -17,3 +17,34 @@
   bottom: 0;
   right: 0;
 }
+
+/* General */
+body {
+  font-family: 'Roboto', sans-serif;
+  padding-top: 70px;
+}
+
+/* Header */
+/* Navbar */
+
+#navbar {
+  background: #fff;
+  padding-top: 20px;
+}
+
+#navbar .first-menu {
+  padding: 6px 0 6px;
+}
+
+#navbar ul a {
+  color: #333;
+}
+
+#navbar ul .fas {
+  padding-left: 5px;
+}
+
+#navbar .btn {
+  border-color: #3c83ff;
+  color: #3c83ff;
+}
