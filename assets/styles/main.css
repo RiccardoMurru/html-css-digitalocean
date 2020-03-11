@@ -1,0 +1,19 @@
+/* Test */
+.test {
+  width: 100%;
+  height: 150px;
+  background: #666;
+  color: #fff;
+  margin: 5px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.fixed {
+  float:right;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
