@@ -38,6 +38,10 @@ body {
   opacity: .8;
 }
 
+.disp-ib {
+  display: inline-block;
+}
+
 /* Header */
 /* Navbar */
 #navbar {
@@ -167,10 +171,38 @@ body {
 
 .info-box {
   width: 100%;
-  height: 150px;
   color: #092151;
 }
 
 .info-box p {
   font-size: 12px;
+}
+
+/* Slider */
+#slider {
+  background: #f3f5f9;
+}
+
+#slider .fas {
+  font-size: 50px;
+}
+
+#slider img {
+  width: 70%;
+}
+
+#slider span,
+#slider ul {
+  padding-top: 10px;
+}
+
+#slider li {
+  width: 15px;
+  height: 15px;
+  border:1px solid #3c83ff;
+  border-radius: 50%;
+}
+
+#slider li:first-child {
+  background: #3c83ff;
 }
