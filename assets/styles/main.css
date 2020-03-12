@@ -290,3 +290,36 @@ body {
   position: relative;
   transform: translateY(-200%);
 }
+
+/* Pre-footer */
+#pre-footer {
+  background-image: linear-gradient(180deg, #0047c5, #01209a);
+  color: #fff;
+}
+
+#pre-footer a {
+  color: #3c83ff;
+}
+
+/* Footer */
+#footer {
+  background: #031c4e;
+  color: #fff;
+}
+
+#footer .footer-logo {
+  color: #8690a6;
+}
+
+#footer .footer-logo span {
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+
+#footer .footer-list h6 {
+  font-size: 18px;
+}
+
+#footer .footer-list li {
+  color: #8690a6;
+}
